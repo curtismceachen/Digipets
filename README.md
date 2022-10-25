@@ -1,12 +1,14 @@
-Digipets (aka Digipetsforever)
+## Digipets (aka Digipetsforever)
 
-Software Development: Curtis McEachen, Tim Nicholson, Zain Amir  
+#### Software Development: 
+Curtis McEachen, Tim Nicholson, Zain Amir  
 
-UX Design: by Aljean Cardenas and Meenakshi Limbachiya
+#### UX Design: 
+Aljean Cardenas and Meenakshi Limbachiya
 
 Digipets was designed for use on mobile devices
 
-Screenshots:
+#### Screenshots:
 
 Landing Page: https://github.com/tnicho/Digipets/blob/main/Digipets%20Screenshots/Digipets%20Landing.png
 
@@ -23,9 +25,9 @@ Update Page: https://github.com/tnicho/Digipets/blob/main/Digipets%20Screenshots
 Delete Page: https://github.com/tnicho/Digipets/blob/main/Digipets%20Screenshots/Digipets%20Delete.png
 
 
-Technologies Used: Python, Django, HTML, CSS, PostgreSQL, Adobe Illustrator, Figma, Zeplin, Heroku
+#### Technologies Used: Python, Django, HTML, CSS, PostgreSQL, Adobe Illustrator, Figma, Zeplin, Heroku, Tailwind CSS
 
-Getting started:
+#### Getting started:
 
 Steps:
 
@@ -37,18 +39,18 @@ Steps:
 
 4) Your pet can be deleted (sent to the Petting Zoo)
 
-5) After 4 hours your pet will have its mood changed to hungry
+5) Your pet will have its mood changed to hungry following creation
 
-6) This can be remedied through feeding your pet.
-
-
-
-Link to the deployed app: https://digipetsforever.herokuapp.com/
-
-Link to Trello board used for set up: https://trello.com/b/T3EvZMJB/collabathon-team-rocket
+6) This can be remedied by feeding your pet
 
 
-Icebox Items:
+
+#### Link to the deployed app: https://digipetsforever.herokuapp.com/
+
+#### Link to Trello board used for set up: https://trello.com/b/T3EvZMJB/collabathon-team-rocket
+
+
+#### Icebox Items:
 
 -Change pet colours
 
@@ -58,9 +60,9 @@ Icebox Items:
 
 -Level up and unlockables
 
--include mini games for activities
+-Include mini games for activities
 
--make avaiable on desktop and tablet
+-Make avaiable on desktop and tablet
 
 
 
