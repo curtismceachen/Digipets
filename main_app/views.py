@@ -5,8 +5,6 @@ from .models import Digipet
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
-from .forms import DigipetsForm
-from django.forms import ModelForm
 from django.views.generic.edit import UpdateView, DeleteView
 # Create your views here.
 
@@ -29,10 +27,6 @@ def digipets_detail(request, digipet_id):
 @login_required
 def digipets_index(request):
   digipets = Digipet.objects.filter(user=request.user)
-  # if Digipet.hungry == "happy":
-  #   Digipet.hungry == "hungry"
-  # else:
-  #   Digipet.hungry == "happy"
   return render(request, 'digipets/index.html', {'digipets': digipets})
   
 
@@ -51,7 +45,6 @@ def signup(request):
   return render(request, 'registration/signup.html', context)
 
 def digipets_feed (request, digipet_id):
-  print("made it here")
   digipet = Digipet.objects.get(id=digipet_id)
   digipet.mood = 'Happy'
   digipet.save()
@@ -59,16 +52,11 @@ def digipets_feed (request, digipet_id):
   
 class DigipetCreate(LoginRequiredMixin, CreateView):
   model = Digipet
-  #fields = ['name', 'species', 'personality', 'birthday', 'image']
   fields = ['name', 'personality', 'birthday', 'species', 'image']
-  # digipets_form = DigipetsForm()
-  #success_url = '/digipets/'
 
   def form_valid(self, form):
     form.instance.user = self.request.user
-    # taking the user and assigning them to the form instance
     return super().form_valid(form)
-
 
 class DigipetUpdate(LoginRequiredMixin, UpdateView):
   model = Digipet

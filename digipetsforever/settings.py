@@ -83,9 +83,6 @@ DATABASES = {
         'NAME': 'digipets',
         'USER': 'zain_',
         'PASSWORD': '527614'
-
-
-
     }
 }
 
