@@ -25,7 +25,8 @@ Update Page: https://github.com/tnicho/Digipets/blob/main/Digipets%20Screenshots
 Delete Page: https://github.com/tnicho/Digipets/blob/main/Digipets%20Screenshots/Digipets%20Delete.png
 
 
-#### Technologies Used: Python, Django, HTML, CSS, PostgreSQL, Adobe Illustrator, Figma, Zeplin, Heroku, Tailwind CSS
+#### Technologies Used: 
+Python, Django, HTML, CSS, PostgreSQL, Adobe Illustrator, Figma, Zeplin, Heroku, Tailwind CSS
 
 #### Getting started:
 
